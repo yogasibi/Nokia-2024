@@ -1,0 +1,27 @@
+javascript:
+    Dynamic Type
+Typescript:
+    Superset of javascript
+    Static Type ( declare data types) 
+    advanced future like tuple, interface and generic etc
+complier:
+    Browser can only understand javascript
+    Typescript needs to be compiled to javascript
+Arrays:
+    Implicit: No need to mention Typescript
+    ex:
+    let numArray = [1,2,3]
+    let strArray = ['a','b','c']
+    let boolArray = [true, false]
+
+    Explicit : Need to mention types
+    let numArray : number[] = [1,2,3]
+    let strArray : string[] = ['a','b','c']
+    let boolArray : boolean[] =[true, false]
+
+    Declare:
+    Once we ready to declare array we should initially in the starting. 
+    then only we may avoid compile time erros.
+
+    Readonly array:
+    We cannot change anything when we use readonly array.
